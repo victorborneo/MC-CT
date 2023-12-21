@@ -3,7 +3,7 @@ Minecraft's Crafting Table
 
 ![An example crafting flint and steel](/icons/example1.gif)
 
-**TO SPAWN ITEMS:** With the program opened, press LALT+C to ask for input on the terminal, then use the 'give' command to spawn the item, which follows the following syntax: give <item> <amount>.
+**TO SPAWN ITEMS:** With the program opened, press LALT+C to ask for input on the terminal, then use the 'give' command to spawn the item, which follows the following syntax: give \<item\> \<amount\>.
 The default for "amount" is 1. "item" should be the name of one of the PNG files inside the "block" or "item" folder, but without the ".png" at the end.
 
 This is a small-scaled replica of Minecraft's crafting table system, which uses pattern recognition, so I thought it would be interest to try to replicate.
