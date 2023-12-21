@@ -1,0 +1,311 @@
+{
+    "shapeless": [
+        {
+            "ingredients": [
+                {
+                    "tag": "log"
+                }
+            ],
+            "result": {
+                "tag": "planks",
+                "type": "block",
+                "amount": 4
+            }
+        },
+        {
+            "ingredients": [
+                {
+                    "item": "blaze_rod"
+                }
+            ],
+            "result": {
+                "type": "item",
+                "item": "blaze_powder",
+                "amount": 2
+            }
+        },
+        {
+            "ingredients": [
+                {
+                    "item": "diamond_block"    
+                }
+            ],
+            "result": {
+                "type": "item",
+                "item": "diamond",
+                "amount": 9
+            }
+        },
+        {
+            "ingredients": [
+                {
+                    "item": "flint"    
+                },
+                {
+                    "item": "iron_ingot"
+                }
+            ],
+            "result": {
+                "type": "item",
+                "item": "flint_and_steel",
+                "amount": 1
+            }
+        }
+    ],
+    "shaped": [
+        {   
+            "pattern": [
+                "XXX",
+                " # ",
+                " # "
+            ],
+            "key": {
+                "X": { 
+                    "item": "iron_ingot"
+                },
+                "#": {
+                    "item": "stick"
+                }
+            },
+            "result": {
+                "type": "item",
+                "item": "iron_pickaxe",
+                "amount": 1
+            }
+        },
+        {   
+            "pattern": [
+                " ! ",
+                "!#!",
+                "XXX"
+            ],
+            "key": {
+                "X": {
+                    "item": "stone"
+                },
+                "#": {
+                    "item": "quartz"
+                },
+                "!": {
+                    "item": "redstone_torch"
+                }
+            },
+            "result": {
+                "type": "item",
+                "item": "comparator",
+                "amount": 1
+            }
+        },
+        {
+            "pattern": [
+                "XX",
+                "X#",
+                " #"
+            ],
+            "key": {
+                "X": {
+                    "item": "cobblestone"
+                },
+                "#": {
+                    "item": "stick"
+                }
+            },
+            "result": {
+                "item": "stone_axe",
+                "type": "item",
+                "amount": 1
+            }
+        },
+        {
+            "pattern": [
+                "XX",
+                "XX"
+            ],
+            "key": {
+                "X": {
+                    "item": "quartz"
+                }
+            },
+            "result": {
+                "type": "block",
+                "item": "quartz_block_side",
+                "amount": 1
+            }
+        },
+        {
+            "pattern": [
+                "XX",
+                "XX"
+            ],
+            "key": {
+                "X": {
+                    "item": "quartz_block_side"
+                }
+            },
+            "result": {
+                "type": "block",
+                "item": "quartz_bricks",
+                "amount": 1
+            }
+        },
+        {
+            "pattern": [
+                "X X",
+                "X X"
+            ],
+            "key": {
+                "X": {
+                    "item": "iron_ingot"
+                }
+            },
+            "result": {
+                "type": "item",
+                "item": "iron_boots",
+                "amount": 1
+            }
+        },
+        {
+            "pattern": [
+                "XXX",
+                "X X"
+            ],
+            "key": {
+                "X": {
+                    "item": "iron_ingot"
+                }
+            },
+            "result": {
+                "type": "item",
+                "item": "iron_helmet",
+                "amount": 1
+            }
+        },
+        {
+            "pattern": [
+                "X X",
+                " X "
+            ],
+            "key": {
+                "X": {
+                    "item": "iron_ingot"
+                }
+            },
+            "result": {
+                "type": "item",
+                "item": "bucket",
+                "amount": 1
+            }
+        },
+        {
+            "pattern": [
+                "XXX",
+                "X X",
+                "XXX"
+            ],
+            "key": {
+                "X": {
+                    "tag": "planks"
+                }
+            },
+            "result": {
+                "type": "block",
+                "item": "chest",
+                "amount": 1 
+            }
+        },
+        {
+            "pattern": [
+                "XXX",
+                "XXX",
+                " # "
+            ],
+            "key": {
+                "X": {
+                    "tag": "planks"
+                },
+                "#": {
+                    "item": "stick"
+                }
+            },
+            "result": {
+                "type": "item",
+                "tag": "sign",
+                "amount": 4 
+            }
+        },
+        {
+            "pattern": [
+                "#",
+                "#"
+            ],
+            "key": {
+                "#": {
+                    "tag": "planks"
+                }
+            },
+            "result": {
+                "type": "item",
+                "item": "stick",
+                "amount": 4 
+            }
+        },
+        {
+            "pattern": [
+                "##",
+                "##",
+                "##"
+            ],
+            "key": {
+                "#": {
+                    "tag": "planks"
+                }
+            },
+            "result": {
+                "type": "item",
+                "tag": "door",
+                "amount": 3
+            }
+        },
+        {
+            "pattern": [
+                "X#",
+                " !"
+            ],
+            "key": {
+                "X": {
+                    "item": "blaze_powder"
+                },
+                "#": {
+                    "item": "coal"
+                },
+                "!": {
+                    "item": "gunpowder"
+                }
+            },
+            "result": {
+                "type": "item",
+                "item": "fire_charge",
+                "amount": 3
+            }
+        },
+        {
+            "pattern": [
+                "X",
+                "Y"
+            ],
+            "key": {
+                "X": {
+                    "item": "stick"
+                },
+                "Y": {
+                    "item": "cobblestone"
+                }
+            },
+            "result": {
+                "type": "block",
+                "item": "lever",
+                "amount": 1
+            }
+        }
+    ]
+}
