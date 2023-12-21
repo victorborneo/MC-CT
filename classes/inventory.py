@@ -31,7 +31,7 @@ class Inventory:
 
         y = self.y_offset + 3 * BLOCKSIZE + PADDING * 2 + PADDING * 10
         for i, _ in enumerate(hand):
-            x = self.x_offset + i * BLOCKSIZE + 2 * i
+            x = self.x_offset + i * BLOCKSIZE + PADDING * i
             hand[i] = Slot(x, y)
 
         return hand
