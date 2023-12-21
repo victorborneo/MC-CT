@@ -8,7 +8,7 @@ from functions import linker
 from instances import *
 
 
-def redraw(ctx, objs):
+def redraw(ctx):
     ctx.fill(BACKGROUNDCOLOR)
 
     for obj in objs:
@@ -32,7 +32,7 @@ def main():
             if func is not None:
                 func(event)
         
-        redraw(window, objs)
+        redraw(window)
         
 
 if __name__ == "__main__":
